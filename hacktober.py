@@ -1,5 +1,6 @@
 # Mantapkan kode dengan adanya input nomor !
-for i in range(6):
+n = int(input("Masukkan Angka : "))
+for i in range(n):
     for j in range(i):
         print(j+1, end="")
     print()
